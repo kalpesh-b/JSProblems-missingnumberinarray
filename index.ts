@@ -9,6 +9,7 @@ function findMissingNumber(input, n) {
 console.log('@@@ ############################### @@');
 console.log('Missing Number');
 console.log('###############################');
+
 const input1 = [1, 2, 3, 4, 5, 7, 8, 9, 10];
 console.log(`INPUT = ${JSON.stringify(input1)}`);
 console.log('Ans: ', findMissingNumber(input1, 10));
@@ -20,4 +21,5 @@ console.log('Ans: ', findMissingNumber(input2, 5));
 const input3 = [1];
 console.log(`INPUT = ${JSON.stringify(input3)}`);
 console.log('Ans: ', findMissingNumber(input3, 2));
+
 console.log('###############################');
